@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,  _______,  _______,  _______,  _______,  _______,  _______,   _______,  _______,  KC_NUM,  KC_PSLS,  KC_PAST,  KC_PMNS,   _______,  _______,            _______,
         _______,  RGB_TOG,  RGB_MOD,  RGB_VAI,  RGB_HUI,  RGB_SAI,  RGB_SPI,   _______,  KC_P7,  KC_P8,  KC_P9,  _______,  _______,   _______,  _______,            _______,
         _______,  KC_CAPS,  RGB_RMOD, RGB_VAD,  RGB_HUD,  RGB_SAD,  RGB_SPD,   _______,  KC_P4,  KC_P5,  KC_P6,  KC_PPLS,  _______,             _______,            _______,
-        _______,  _______,            _______,  _______,  _______,  _______,   _______,  _______,  NK_TOGG,  KC_P1,  KC_P2,  KC_P3,   KC_PDOT,  _______,  KC_,
+        _______,  _______,            _______,  _______,  _______,  _______,   _______,  _______,  NK_TOGG,  KC_P1,  KC_P2,  KC_P3,   KC_PDOT,  _______,  KC_APP,
         _______,  _______,  _______,            _______,  _______,  _______,                       KC_P0,            KC_RALT,                       KC_HOME,  KC_H,  KC_END),
 };
 
