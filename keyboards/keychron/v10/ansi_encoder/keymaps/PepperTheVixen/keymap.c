@@ -58,7 +58,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         break;
         case NV_STRT:
         if (record->event.pressed) {
-            SEND_STRING(SS_LGUI("s") SS_DELAY(500) "nvda" SS_TAP(X_ENT)); //searches for NVDA to run the app if it's not running or restart the app if it's already running
+            SEND_STRING(SS_LGUI("s") SS_DELAY(500) "nvda" SS_DELAY(500) SS_TAP(X_ENT)); //searches for NVDA to run the app if it's not running or restart the app if it's already running
         } else {
 }
         break;  
